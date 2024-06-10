@@ -2,7 +2,7 @@ import { config } from "dotenv";
 config();
 
 
-export const FRONTEND_URL = process.env.FRONTEND_URL || 'https://frontend-proyecto-npou.onrender.com' ;
+export const FRONTEND_URL = process.env.FRONTEND_URL || 'https://frontend-proyecto-z1ey.onrender.com' ;
 
 export const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb+srv://lion123967:NQpu17XCqciVfSh1@bdemi.fbtts7i.mongodb.net/PROYECTO?retryWrites=true&w=majority&appName=bdemi";

@@ -39,5 +39,6 @@ app.use("/api/users", usersRoutes);
 app.use("/api/clients", clientsRoutes);
 app.use("/api/roles", roleRoutes);
 app.use("/api", authRoutes);
+app.use("/apis", indexRoutes);
 
 export default app;
